@@ -15,11 +15,11 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/article-one', function (req, res) {
     res.send('article one is served and it will be requested')
 });
-app.get('/article-one', function (req, res) {
-    res.send('article one is served and it will be requested')
+app.get('/article-two', function (req, res) {
+    res.send('article two is served and it will be requested')
 });
-app.get('/article-one', function (req, res) {
-    res.send('article one is served and it will be requested')
+app.get('/article-three', function (req, res) {
+    res.send('article three is served and it will be requested')
 });
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
