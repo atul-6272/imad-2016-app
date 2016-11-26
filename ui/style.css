@@ -1,13 +1,13 @@
 body {
    background-image:url("/ui/road.jpg");
     font-family: sans-serif;
-    background-size:1600px;
+    background-size:100%;
     background-repeat:no-repeat;
    
     
 }
 .container {
-	        width:1600px;
+	        width:100%;
 			margin:auto;
 			
 			
