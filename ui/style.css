@@ -16,6 +16,10 @@ body {
 .center {
     text-align: center;
 }
+.heading{
+    font size:24px;
+    font-family:Spooky Night;
+}
 
 .text-big {
     font-size: 300%;
