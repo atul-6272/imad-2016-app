@@ -1,8 +1,10 @@
 body {
-   background-image:url("/ui/road.jpg");
+    background-image:url("/ui/road.jpg");
     font-family: sans-serif;
     background-size:100%;
     background-repeat:no-repeat;
+    margin:0;
+    padding:0;
    
     
 }
