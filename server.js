@@ -27,8 +27,9 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/ui/road.jpg', function (req, res) {
 res.sendFile(path.join(__dirname, 'ui','road.jpg'));
 });
-app.get('/ui/login.html', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'login.html'));
+
+app.get('/ui/download.png', function (req, res) {
+res.sendFile(path.join(__dirname, 'ui','download.png'));
 });
 
 
